@@ -1,0 +1,86 @@
+/* =================
+Base Element Styles
+======================== */
+
+*{
+    box-sizing: border-box;
+}
+
+.p {
+    text-align: center;
+}
+
+
+/* flex box */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.row {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.main-header,
+.p {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* styles */
+
+body{
+    color: purple;
+}
+
+.main-header {
+    color: purple;
+    background-color: #3a3a3a;
+}
+
+
+/* ================
+Base Layout Styles
+====================== */
+
+/* Layout Containers */
+.name {
+    font-size: 5em;
+}
+
+.primary {
+    margin: auto;
+    text-align: center;
+}
+
+.secondary {
+    margin: auto;
+    text-align: center;
+}
+
+.main-footer {
+    margin: auto;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* ================
+ Media Queries 
+ =======================*/
+@media (min-width: 769px) {
+
+}
+
+@media (min-width: 1025px) {
+
+}
