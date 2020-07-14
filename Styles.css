@@ -32,6 +32,10 @@ body {
     justify-content: space-between;
 }
 
+.name {
+    display: flex;
+}
+
 /* styles */
 
 body{
@@ -51,6 +55,7 @@ Base Layout Styles
 /* Layout Containers */
 .name {
     font-size: 5em;
+    text-align: center;
 }
 
 .primary {
