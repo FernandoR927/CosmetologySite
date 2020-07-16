@@ -19,6 +19,7 @@ body {
 }
 .row {
     display: flex;
+    flex-direction: column;
     flex: 1;
     flex-wrap: wrap;
 }
@@ -40,11 +41,11 @@ body {
 
 body{
     color: purple;
+    background-color: #3a3a3a;
 }
 
 .main-header {
     color: purple;
-    background-color: #3a3a3a;
 }
 
 
@@ -59,12 +60,12 @@ Base Layout Styles
 }
 
 .primary {
-    margin: auto;
+    margin: 0 auto;
     text-align: center;
 }
 
 .secondary {
-    margin: auto;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -103,6 +104,12 @@ Base Layout Styles
 	z-index: 2;
 }
 
+#slides img {
+    width: 200px;
+    height: auto;
+
+}
+
 
 
 
@@ -114,6 +121,22 @@ Base Layout Styles
 @media (min-width: 769px) {
     p {
         font-size: 1.2rem;
+    }
+
+    .row {
+        flex-direction: row;
+    }
+
+    .primary {
+        flex: 1;
+    }
+
+    .secondary {
+        flex: 1;
+    }
+
+    #slides img {
+        width: 400px;
     }
 }
 
