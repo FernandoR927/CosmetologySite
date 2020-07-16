@@ -73,6 +73,8 @@ Base Layout Styles
     text-align: center;
 }
 
+/* Javascript Carousel */
+
 #slides{
 	position: relative;
 	height: 150px;
@@ -101,10 +103,6 @@ Base Layout Styles
 	z-index: 2;
 }
 
-#image {
-    width: 500px;
-    height: 500px;
-}
 
 
 
@@ -114,7 +112,9 @@ Base Layout Styles
  Media Queries 
  =======================*/
 @media (min-width: 769px) {
-
+    p {
+        font-size: 1.2rem;
+    }
 }
 
 @media (min-width: 1025px) {
