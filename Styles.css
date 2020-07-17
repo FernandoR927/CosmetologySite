@@ -40,14 +40,18 @@ body {
 /* styles */
 
 body{
-    color: purple;
-    background-color: #3a3a3a;
+    color: #dda0dd;
+    background-color: black;
 }
 
 .main-header {
-    color: purple;
+    color: #dda0dd;
+    background-color: #009e95;
 }
 
+.main-footer {
+    background-color: #009e95;
+}
 
 /* ================
 Base Layout Styles
@@ -62,16 +66,25 @@ Base Layout Styles
 .primary {
     margin: 0 auto;
     text-align: center;
+    padding: 10%;
 }
 
 .secondary {
     margin: 0 auto;
     text-align: center;
+    padding: 3%;
 }
 
 .main-footer {
-    margin: auto;
+    position: fixed;
     text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.contact {
+    list-style-type: none;
 }
 
 /* Javascript Carousel */
