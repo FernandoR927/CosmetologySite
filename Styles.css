@@ -46,12 +46,12 @@ body{
 
 .main-header {
     color: #dda0dd;
-    background-color: #009e95;
+    /* background-color: #009e95; */
 }
 
-.main-footer {
+/* .main-footer {
     background-color: #009e95;
-}
+} */
 
 /* ================
 Base Layout Styles
