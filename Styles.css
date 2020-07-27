@@ -154,5 +154,7 @@ Base Layout Styles
 }
 
 @media (min-width: 1025px) {
-
+    p {
+        font-size: 1.6rem;
+    }
 }
