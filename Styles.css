@@ -49,10 +49,6 @@ body{
     /* background-color: #009e95; */
 }
 
-/* .main-footer {
-    background-color: #009e95;
-} */
-
 /* ================
 Base Layout Styles
 ====================== */
@@ -120,7 +116,6 @@ Base Layout Styles
 #slides img {
     width: 200px;
     height: auto;
-
 }
 
 
@@ -149,7 +144,7 @@ Base Layout Styles
     }
 
     #slides img {
-        width: 400px;
+        width: 350px;
     }
 }
 
